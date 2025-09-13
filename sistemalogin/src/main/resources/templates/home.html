@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Bem-vindo, <span th:text="${usuario.username}">Usuário</span>!</h1>
+    <p>Seu e-mail: <span th:text="${usuario.email}">email@exemplo.com</span></p>
+    <a href="/logout">Sair</a>
+</body>
+</html>

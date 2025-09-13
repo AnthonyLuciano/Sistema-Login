@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Área Administrativa</title>
+</head>
+<body>
+    <h1>Bem-vindo, <span th:text="${usuario.username}">Administrador</span>!</h1>
+    <p>Você está logado como <strong>ADMINISTRADOR</strong>.</p>
+    <p>Seu e-mail: <span th:text="${usuario.email}">email@exemplo.com</span></p>
+    <a href="/logout">Sair</a>
+</body>
+</html>
